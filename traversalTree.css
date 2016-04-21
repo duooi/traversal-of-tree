@@ -1,0 +1,57 @@
+body{
+	height:600px;
+	display: flex;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items:center;
+	align-items:center;
+}
+
+#container{
+	display: flex;
+	width:500px;
+	height:100px;
+	border:1px solid #000;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items:center;
+}
+
+.level-one{
+	display: flex;
+	width:230px;
+	height:80px;
+	border:1px solid #000;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.level-two{
+	display: flex;
+	width:95px;
+	height:60px;
+	border:1px solid #000;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.level-three{
+	display: flex;
+	width:30px;
+	height:40px;
+	border:1px solid #000;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.btngroup button{
+	margin:20px 10px 0 10px;
+}
